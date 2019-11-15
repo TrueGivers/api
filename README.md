@@ -1,5 +1,10 @@
 # api
-TrueGivers API
+TrueGivers API enables partners and direct organizations to get up and running easily with Data Stewardship (https://truegivers.com/data-stewardship/).
+
+- Register your testing account
+- Add a default payment method to your testing account (use 4242-4242-4242-4242 CVV 444 ZIP 12345 EXP 12/30)
+- If you're a partner, write code to create an organization using: POST /organizations {"Name": "Sample Organization"}, otherwise as a direct customer...
+- Write code to upload your data using: POST /records BODY name/value pairs of fields defined here: (./wiki/upload-fields)
 
 # Overview
 The TrueGivers API exposes all of the functionality of the truegivers.com application (app.truegivers.com) through the same endpoint.  This includes the following services:
